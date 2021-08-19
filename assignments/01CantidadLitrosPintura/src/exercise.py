@@ -2,7 +2,7 @@ import math
 def main():
     #escribe tu código abajo de esta línea
     a= float(input('Area a pintar en metros: '))
-    r = float(input('Rendimiento (m2/L): '))
+    r = float(input('Rendimiento (m2/l): '))
 
     li= int(math.ceil (a/r))
 
