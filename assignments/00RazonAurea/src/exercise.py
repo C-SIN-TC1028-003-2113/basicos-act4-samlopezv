@@ -1,3 +1,5 @@
+import math
+
 def main():
     #escribe tu código abajo de esta línea
     print('Razón Aurea')
@@ -5,7 +7,12 @@ def main():
     numero = float(input('Número: '))
     decimales = int(input('Decimales a mostrar: '))
 
-    aurea = 
+    phi = (1+math.sqrt(5))/2
+    aurea = numero*phi
+
+    print(f'Razón áurea: {aurea}')
+
+
 
 
 if __name__ == '__main__':
